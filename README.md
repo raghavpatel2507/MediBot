@@ -19,9 +19,9 @@ uv add -r requiremnts.txt
 
 Create a .env file in the root directory and add your Pinecone & openai credentials as follows:
 
-PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+-PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
-GROQ_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+-GROQ_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 ```bash
 # run the following command to store embeddings to pinecone
@@ -35,15 +35,15 @@ python app.py
 
 Techstack Used:
 
-Python
+-Python
 
-LangChain
+-LangChain
 
-Flask
+-Flask
 
-GPT
+-GPT
 
-Pinecone
+-Pinecone
 
 # AWS-CICD-Deployment-with-Github-Actions
 
@@ -109,14 +109,14 @@ setting>actions>runner>new self hosted runner> choose os> then run command one b
 
 7. Setup github secrets:
 
-AWS_ACCESS_KEY_ID
+-AWS_ACCESS_KEY_ID
 
-AWS_SECRET_ACCESS_KEY
+-AWS_SECRET_ACCESS_KEY
 
-AWS_DEFAULT_REGION
+-AWS_DEFAULT_REGION
 
-ECR_REPO
+-ECR_REPO
 
-PINECONE_API_KEY
+-PINECONE_API_KEY
 
-GROQ_API_KEY
+-GROQ_API_KEY
