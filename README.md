@@ -18,7 +18,9 @@ uv add -r requiremnts.txt
 ```
 
 Create a .env file in the root directory and add your Pinecone & openai credentials as follows:
+
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
 GROQ_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 ```bash
@@ -32,21 +34,27 @@ python app.py
 ```
 
 Techstack Used:
+
 Python
+
 LangChain
+
 Flask
+
 GPT
+
 Pinecone
 
 # AWS-CICD-Deployment-with-Github-Actions
+
 1. Login to AWS console.
+
 2. Create IAM user for deployment
 
 ```bash
 #with specific access
 
 1. EC2 access : It is virtual machine
-
 2. ECR: Elastic Container registry to save your docker image in aws
 
 
@@ -100,9 +108,15 @@ setting>actions>runner>new self hosted runner> choose os> then run command one b
 ```
 
 7. Setup github secrets:
+
 AWS_ACCESS_KEY_ID
+
 AWS_SECRET_ACCESS_KEY
+
 AWS_DEFAULT_REGION
+
 ECR_REPO
+
 PINECONE_API_KEY
+
 GROQ_API_KEY
