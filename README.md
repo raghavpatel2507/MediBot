@@ -115,6 +115,11 @@ setting>actions>runner>new self hosted runner> choose os> then run command one b
 
 -AWS_DEFAULT_REGION
 
+
+# Screenshort
+<img width="1895" height="852" alt="image1" src="https://github.com/user-attachments/assets/332172b0-a5a5-45af-ba67-2b8d85c5c3a9" />
+
+
 -ECR_REPO
 
 -PINECONE_API_KEY
